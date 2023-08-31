@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Scraper Instructions</title>
+</head>
+<body>
+    <h2>Instructions for Using the Web Scraper</h2>
+    <p>Welcome to the web scraper tool! This tool allows you to extract information from web pages. Follow these steps to get started:</p>
+    
+    <ol>
+        <li>Copy and Paste URLs: In the field below, paste the URLs of the web pages you want to scrape. You can enter multiple URLs, each on a new line.</li>
+        <li>Start Scraping: Once you've entered the URLs, click the "Scrape" button. The web scraper will start fetching information from the provided URLs.</li>
+        <li>Review Results: The scraper will gather data from the web pages. Depending on how complex the pages are, this might take some time. Once the scraping is complete, you'll be able to view and use the extracted information.</li>
+    </ol>
+
+    <h2>Enter URLs to Scrape</h2>
+    <form method="post" action="/scrape">
+        <textarea name="urls" rows="5" cols="50" placeholder="Enter one URL per line"></textarea><br>
+        <input type="submit" value="Scrape">
+    </form>
+</body>
+</html>
+
